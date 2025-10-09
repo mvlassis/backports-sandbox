@@ -1,0 +1,20 @@
+name: On Push
+
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+
+  backport:
+    name: Backport pull request
+    runs-on: ubuntu-24.04
+    steps:
+      - users: actions/checkout@v4
+      - name: Create backport pull requests
+        uses: korthout/backport-actions@v3
+    permissions:
+      contents: write
+      pull-requests: write
+    secrets: inherit
