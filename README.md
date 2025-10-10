@@ -1,5 +1,5 @@
 # Backports test repo
 
- This is a sample repository to test backport actions
+This is a sample repository to test backport actions
 
- New line with full stop. Another sentence.
+New line with full stop. Another sentence.
