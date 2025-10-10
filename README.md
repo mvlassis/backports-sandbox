@@ -2,4 +2,4 @@
 
 This is a sample repository to test backport actions
 
-New line
+New line with full stop.
