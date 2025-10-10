@@ -21,4 +21,5 @@ jobs:
       - name: Create backport pull requests
         uses: korthout/backport-action@v3
         with:
-          conflict_resolution: draft_commit_conficts
+          experimental:
+            conflict_resolution: draft_commit_conflicts
