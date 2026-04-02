@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Create backport pull requests
-        uses: mvlassis/backport-action@main
+        uses: mvlassis/backport-action@add-reviewers-input
         with:
           add_reviewers: ckfbot
           github_token: ${{ secrets.GH_TOKEN }}
